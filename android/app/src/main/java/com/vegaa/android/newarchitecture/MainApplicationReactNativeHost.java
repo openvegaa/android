@@ -1,4 +1,4 @@
-package com.android.newarchitecture;
+package com.vegaa.android.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.android.BuildConfig;
-import com.android.newarchitecture.components.MainComponentsRegistry;
-import com.android.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.vegaa.android.BuildConfig;
+import com.vegaa.android.newarchitecture.components.MainComponentsRegistry;
+import com.vegaa.android.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
