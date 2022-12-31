@@ -1,6 +1,6 @@
-apply plugin: "com.vegaa.android.application"
+apply plugin: "com.android.application"
 
-import com.vegaa.android.build.OutputFile
+import com.android.build.OutputFile
 import org.apache.tools.ant.taskdefs.condition.Os
 
 /**
