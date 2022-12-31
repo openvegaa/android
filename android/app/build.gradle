@@ -1,6 +1,6 @@
-apply plugin: "com.android.application"
+apply plugin: "com.vegaa.android.application"
 
-import com.android.build.OutputFile
+import com.vegaa.android.build.OutputFile
 import org.apache.tools.ant.taskdefs.condition.Os
 
 /**
@@ -135,7 +135,7 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.android"
+        applicationId "com.vegaa.android"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
